@@ -101,18 +101,6 @@ def limpiar_texto(df, columnas, conservar_mayusculas=[]):
     return df
 
 
-def eliminar_duplicados(df):
-    """
-    Elimina filas duplicadas del DataFrame.
-
-    Args:
-        df (pandas.DataFrame): DataFrame con posibles duplicados.
-
-    Returns:
-        pandas.DataFrame: DataFrame sin filas duplicadas.
-    """
-    return df.drop_duplicates()
-
 def resumen_nulos(df):
     """
     Muestra el número y porcentaje de valores nulos por columna.
